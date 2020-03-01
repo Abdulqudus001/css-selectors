@@ -58,3 +58,20 @@ ul li:last-child ul {
   border-left: 1px solid white;
   margin-left: -17px;
 }
+
+/* Selector styles */
+
+.div {
+  width: 60px;
+  height: 30px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.div:hover {
+  background-color: rgb(192, 229, 217);
+}
